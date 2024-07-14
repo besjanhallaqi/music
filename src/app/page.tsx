@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="w-full h-full flex flex-col items-center justify-center py-8 px-4">
       <div className="w-full flex flex-col lg:flex-row gap-12">
-        <div className="relative">
+        <div className="relative h-full">
           <div className="absolute w-full h-full lg:h-[calc(100%-32px)] -z-10 bg-text"></div>
           <Image
             width="800"
@@ -22,7 +22,7 @@ export default function Home() {
               animation
                 ? "lg:ml-8 lg:mt-8 lg:shadow-image p-4 lg:p-0 h-full lg:h-[calc(100%-32px)]"
                 : "m-0"
-            } transition-all duration-1000`}
+            } transition-all duration-500`}
             src="/images/team-photo-2.jpeg"
           />
         </div>
