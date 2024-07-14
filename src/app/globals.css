@@ -7,12 +7,14 @@
     30px 30px 24px -20px #f3fff518;
 }
 
-::-moz-selection { /* Code for Firefox */
+@media only screen and (min-width: 1024px) {
+  ::-moz-selection { /* Code for Firefox */
     color: #f3fff5;
     background: #38373d;
   }
-  
+
   ::selection {
     color: #f3fff5;
     background: #38373d;
   }
+}

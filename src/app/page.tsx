@@ -18,9 +18,9 @@ export default function Home() {
             height="400"
             alt="Team photo"
             priority
-            className={`w-full ${
+            className={`w-full shadow-image ${
               animation
-                ? "lg:ml-8 lg:mt-8 lg:shadow-image p-4 lg:p-0 h-full lg:h-[calc(100%-32px)]"
+                ? "lg:ml-8 lg:mt-8 p-4 lg:p-0 h-full lg:h-[calc(100%-32px)]"
                 : "m-0"
             } transition-all duration-500`}
             src="/images/team-photo-2.jpeg"
