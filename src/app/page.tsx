@@ -39,13 +39,13 @@ export default function Home() {
           <div className="w-full flex flex-row gap-4 mt-6 items-center justify-center">
             <Link
               href="/contact"
-              className="border-2 border-text rounded-md px-4 py-2 hover:text-primary hover:bg-text transition-all duration-100"
+              className="border-2 border-text px-4 py-2 hover:text-primary hover:bg-text transition-all duration-100"
             >
               Kontakto
             </Link>
             <Link
               href="/social-media"
-              className="border-2 border-text rounded-md px-4 py-2 hover:text-primary hover:bg-text transition-all duration-100"
+              className="border-2 border-text px-4 py-2 hover:text-primary hover:bg-text transition-all duration-100"
             >
               Rrjetet sociale
             </Link>

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="w-full flex justify-center">
       <div className="min-w-[300px] flex flex-col gap-4 text-text">
-        <p className="text-3xl text-center">Kontakti</p>
+        <p className="text-3xl text-center mb-4">Kontakti</p>
         <Link
           href="tel:+32467603440"
           className="flex flex-row justify-center gap-2 py-4 hover:bg-secondary"
@@ -45,7 +45,7 @@ export default function Home() {
             />
           </Link>
         </div>
-        <hr className="my-4" />
+        <hr className="my-4 border-divider border-[1px]" />
         <Link
           href="tel:+491772737076"
           className="flex flex-row justify-center gap-2 py-4 hover:bg-secondary"
