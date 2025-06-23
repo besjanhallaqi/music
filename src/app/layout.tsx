@@ -33,7 +33,7 @@ export default function RootLayout({
             &copy;&nbsp;2024&nbsp;
             <a
               className="font-semibold"
-              href="https://besjan-hallaqi-portfolio.netlify.app/"
+              href="https://besjanhallaqi.com/"
               target="_blank"
             >
               BH
